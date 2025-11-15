@@ -1,0 +1,63 @@
+name: coco_fiscal
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  http: ^0.13.6
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.4
+  table_calendar: ^3.0.9
+  carousel_slider: ^4.2.1
+  provider: ^6.1.1
+  url_launcher: ^6.1.10
+  flutter_time_picker_spinner: ^2.0.0
+  file_picker: ^8.0.3
+  fl_chart: ^1.1.1
+  pie_chart: ^5.4.0
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.3.5
+  flutter_launcher_icons:  ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/APP_REAL.png"
+  adaptive_icon_background: "#EEF8F2"
+  adaptive_icon_foreground: "assets/images/APP_REAL.png"
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/images/Logo.png
+    - assets/images/FondoA.png
+    - assets/images/FondoB.png
+
+flutter_native_splash:
+  color: "#FFFFFF" # Fondo blanco o el que prefieras
+  image: assets/images/Logo.png
+  android: true
+  ios: true
+  
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+
+
